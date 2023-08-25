@@ -24,7 +24,7 @@ def test_main_1():
                 print (totalavg)
 
     expectedtotal = sum(numbers)
-    expectedavg = sum(numbers) / len(numbers)
+    expectedavg = sum(numbers) // len(numbers)
 
     assert expectedtotal == totalavg[0]
     assert expectedavg == totalavg[1]
