@@ -5,6 +5,8 @@ int main()
   int rdnum1, rdnum2, rdnum3;
 
   /* ************************************
+  You should make a code segment to generate three random numbers.
+  And calculate the summation and average of random numbers.
     Code your program here
   ************************************ */
 
