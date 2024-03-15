@@ -21,7 +21,8 @@ int main()
    double average = static_cast<double>(total) / 3.0;
 
   cout << setprecision(2) << fixed;
-  cout << "Random values are " << rdnum1 << " " << rdnum2 << " " << rdnum3 << endl;
-  cout << "Total summation: " << total << endl;
-  cout << "Average " << average << endl;
+  cout << "Random values are: " << rdnum1 << " " << rdnum2 << " " << rdnum3 << endl;
+  cout << "Total summation: " << total << "\t";
+  cout << "Average: " 
+  << average << endl;
 }
